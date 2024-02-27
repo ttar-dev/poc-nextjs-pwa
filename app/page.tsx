@@ -111,7 +111,7 @@ export default function Home() {
 
 const Video = () => {
   const { data, error } = useSWR(
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
   );
 
   if (error) return <div>Error loading video</div>;
