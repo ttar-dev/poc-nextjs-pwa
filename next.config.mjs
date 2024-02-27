@@ -14,7 +14,7 @@ const withPWA = withPWAInit({
     disableDevLogs: true,
   },
   fallbacks: {
-    document: "/offline",
+    // document: "/offline",
   },
   runtimeCaching: [
     {
